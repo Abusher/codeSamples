@@ -1,0 +1,12 @@
+﻿  RSA.cpp
+  LongArithmetic.cpp
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(52): warning C4018: <: несоответствие типов со знаком и без знака
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(54): warning C4018: <: несоответствие типов со знаком и без знака
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(55): warning C4018: <: несоответствие типов со знаком и без знака
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(68): warning C4018: <: несоответствие типов со знаком и без знака
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(96): warning C4018: <: несоответствие типов со знаком и без знака
+d:\github\c++\coursework\rsa\rsa\longarithmetic.cpp(113): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  RSA.vcxproj -> D:\github\C++\CourseWork\RSA\Debug\RSA.exe
+  RSA.vcxproj -> D:\github\C++\CourseWork\RSA\Debug\RSA.pdb (Full PDB)

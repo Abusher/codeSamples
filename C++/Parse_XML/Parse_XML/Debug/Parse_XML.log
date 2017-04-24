@@ -1,0 +1,11 @@
+﻿  Parse_XML.cpp
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(46): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(60): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(80): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(101): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(103): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(106): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(163): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\abusher\documents\visual studio 2015\projects\parse_xml\parse_xml\parse_xml.cpp(174): warning C4018: <: несоответствие типов со знаком и без знака
+  Parse_XML.vcxproj -> c:\users\abusher\documents\visual studio 2015\Projects\Parse_XML\Debug\Parse_XML.exe
+  Parse_XML.vcxproj -> c:\users\abusher\documents\visual studio 2015\Projects\Parse_XML\Debug\Parse_XML.pdb (Full PDB)
