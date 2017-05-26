@@ -1,29 +1,30 @@
 package sysprogrammingalgorithm;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.math.BigInteger;
-import java.util.Random;
+import java.util.*;
+
 import service.*;
 
 public class Main {
 
-    public static BigInteger AlphaProcedure()
-    {
 
-        Random rnd = new Random();
-        BigInteger p1= new BigInteger(10,rnd);
-        return p1;
-    }
+
     public static void main(String[] args) {
 	// write your code here
 
-        Numbers p = new Numbers(512);
 
-            BigInteger a = p.genPrime();
-            System.out.println(a);
-        System.out.println(a.isProbablePrime(10));
 
-        a = a.nextProbablePrime();
-        System.out.println(a);
+
+        Person A= new Person();
+
+
+
+        if(A.Authentication())
+            System.out.println("Authentication was passed successfully");
+        else
+        System.out.println("Authentication failed");
 
 
 

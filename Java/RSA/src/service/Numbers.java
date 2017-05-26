@@ -3,6 +3,7 @@ package service;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Created by Abusher on 11.04.2017.
@@ -10,15 +11,22 @@ import java.util.Random;
 public class Numbers {
 
     private static ArrayList<Integer> primes = new ArrayList<>();
-    private int size;
-    private static int k=0;
+    private static int size=0;
 
-    public Numbers(int n)
+    public static int N=0;
+
+
+    public Numbers()
     {
-        this.size = n;
+        if(size==0)
+        {
+            Scanner in = new Scanner(System.in);
+            size = in.nextInt();
+            System.out.println(size);
+        }
 
-        if(k==0) sieve();
-        k++;
+
+
     }
     public int getSize()
     {
@@ -36,7 +44,7 @@ public class Numbers {
             number = new BigInteger(size,rnd);
 
             if(number.bitLength()<=size) number = number.shiftLeft(size-number.bitLength());
-
+            number = number.nextProbablePrime();
 
         }
         return number;
@@ -44,16 +52,13 @@ public class Numbers {
 
 
 
-    private boolean isprime(BigInteger prime)
+    public boolean isprime(BigInteger prime)
     {
 
         if(prime.mod(BigInteger.valueOf(2))==BigInteger.ZERO) return false;
         BigInteger d = prime.subtract(BigInteger.ONE);
         int s = 0;
-        for (Integer p :primes) {
-            BigInteger remainder = prime.mod(BigInteger.valueOf(p));
-            if(remainder.equals(BigInteger.ZERO)) return false;
-        }
+
 
         do
         {
@@ -62,7 +67,7 @@ public class Numbers {
 
         }while(d.mod(BigInteger.valueOf(2))== BigInteger.ZERO);
 
-        outer: for (int i=0;i<10;i++)
+        outer: for (int i=0;i<2;i++)
         {
             Random rnd = new Random();
             BigInteger a = new BigInteger(size,rnd).
@@ -88,27 +93,36 @@ public class Numbers {
 
         return true;
     }
-    private void sieve()
+
+    public BigInteger find_reverse(BigInteger p, BigInteger module)
     {
-        boolean p[] = new boolean[2001];
+        BigInteger reverse = BigInteger.ZERO;
+        BigInteger coef = BigInteger.ZERO;
 
-        for (int i = 0; i < p.length; i++) {
-            p[i]=true;
-        }
-
-        primes.add(2);
-        for(int j=4;j<p.length;j+=2) p[j]=false;
-
-        for(int i=3;i<p.length;i+=2)
-        {
-            if(p[i]==false) {}
-            else
-            {
-                primes.add(i);
-                for(int j=i*2;j<p.length;j+=i) p[j]=false;
-            }
-        }
-
-
+        Triple d = Extended_gcd(p,module);
+        if(d.getX().compareTo(BigInteger.ZERO)==-1) return module.add(d.getX());
+        else return d.getX();
     }
+    private Triple Extended_gcd(BigInteger a, BigInteger  b)
+    {
+        BigInteger reverse;
+        BigInteger coef;
+        if(a.equals(BigInteger.ZERO))
+        {
+            reverse= BigInteger.ZERO;
+            coef = BigInteger.ONE;
+            return new Triple(b,reverse,coef);
+        }
+
+        Triple d = Extended_gcd(b.mod(a),a);
+
+        BigInteger x1 = d.getX();
+        BigInteger y1 = d.getY();
+
+        reverse = y1.subtract(b.divide(a).multiply(x1));
+        coef = x1;
+
+        return new Triple(d.getZ(),reverse,coef);
+    }
+
 }
