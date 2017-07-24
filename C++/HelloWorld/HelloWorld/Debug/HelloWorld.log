@@ -1,0 +1,14 @@
+﻿  main.cpp
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(173): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(204): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(205): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(206): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(285): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(286): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(290): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(291): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(293): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(294): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\wadim\documents\visual studio 2015\projects\helloworld\helloworld\main.cpp(303): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+  HelloWorld.vcxproj -> C:\Users\Wadim\documents\visual studio 2015\Projects\HelloWorld\Debug\HelloWorld.exe
+  HelloWorld.vcxproj -> C:\Users\Wadim\documents\visual studio 2015\Projects\HelloWorld\Debug\HelloWorld.pdb (Partial PDB)
