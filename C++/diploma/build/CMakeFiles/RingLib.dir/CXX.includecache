@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ringsignature.hpp
+rsa_elem.hpp
+-
+
+../include/rsa_elem.hpp
+iostream
+-
+stdio.h
+-
+gmp.h
+-
+gmpxx.h
+-
+string
+-
+ctime
+-
+cstring
+-
+chrono
+-
+vector
+-
+memory
+-
+
+/home/user/untitled/diploma/src/ringsignature.cpp
+ringsignature.hpp
+-
+

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rsa_elem.hpp
+iostream
+-
+stdio.h
+-
+gmp.h
+-
+gmpxx.h
+-
+string
+-
+ctime
+-
+cstring
+-
+chrono
+-
+vector
+-
+memory
+-
+
+../include/rsa_generator.hpp
+rsa_elem.hpp
+-
+
+/home/user/untitled/diploma/src/rsa_elem.cpp
+rsa_elem.hpp
+/home/user/untitled/diploma/src/rsa_elem.hpp
+
+/home/user/untitled/diploma/src/rsa_generator.cpp
+rsa_generator.hpp
+/home/user/untitled/diploma/src/rsa_generator.hpp
+

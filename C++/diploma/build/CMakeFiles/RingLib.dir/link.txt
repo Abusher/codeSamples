@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRingLib.a  CMakeFiles/RingLib.dir/src/ringsignature.cpp.o
+/usr/bin/ranlib libRingLib.a
