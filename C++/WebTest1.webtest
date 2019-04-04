@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="d5be24f8-1c47-49fd-bc84-d492d4f3cd36" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.310e12a7-471c-45fc-9b00-7c031eef405b.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="7ede5c76-1f11-4d93-9221-3b1903afee0c" Version="1.1" Url="http://seasonvar.ru/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="9f69f20f-4dab-46d9-876b-9880e8491a1b" Version="1.1" Url="http://seasonvar.ru/tpl/asset/font/svico.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="54723984" RecordedValue="54723984" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="847ec793-dc49-4570-a46c-487db3e56159" Version="1.1" Url="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="0b8eeedd-d14d-494c-a93e-c2ff90732fbf" Version="1.1" Url="http://seasonvar.ru/tpl/asset/font/svico.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="54723984" RecordedValue="54723984" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d30a41dd-392a-4a95-9890-32828b2aca84" Version="1.1" Url="http://z.cdn.adbetnet.com/load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="z" Value="1611254999" RecordedValue="1611254999" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="div" Value="cLcLlFSm" RecordedValue="cLcLlFSm" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sr" Value="1920x1080" RecordedValue="1920x1080" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="df" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cw" Value="1658" RecordedValue="1658" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ch" Value="935" RecordedValue="935" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tz" Value="180" RecordedValue="180" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="bh" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tl" Value="416" RecordedValue="416" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pl" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mi" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="n" Value="1554146763032" RecordedValue="1554146763032" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="seasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" RecordedValue="seasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vc" Value="NVIDIA%20GeForce%20GTX%201060%206GB" RecordedValue="NVIDIA%20GeForce%20GTX%201060%206GB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ref" Value="seasonvar.ru%2F" RecordedValue="seasonvar.ru%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="zyx" Value="334474966" RecordedValue="334474966" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="34f32b83-d2d7-474d-aada-74e511c9e26e" Version="1.1" Url="http://z.cdn.adbetnet.com/load" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="z" Value="2025622086" RecordedValue="2025622086" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="div" Value="KghLgDBD" RecordedValue="KghLgDBD" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sr" Value="1920x1080" RecordedValue="1920x1080" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="df" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cw" Value="1658" RecordedValue="1658" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ch" Value="935" RecordedValue="935" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tz" Value="180" RecordedValue="180" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="bh" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="tl" Value="416" RecordedValue="416" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="pl" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mi" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="n" Value="1554146763032" RecordedValue="1554146763032" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="url" Value="seasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" RecordedValue="seasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vc" Value="NVIDIA%20GeForce%20GTX%201060%206GB" RecordedValue="NVIDIA%20GeForce%20GTX%201060%206GB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ref" Value="seasonvar.ru%2F" RecordedValue="seasonvar.ru%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="zyx" Value="334474966" RecordedValue="334474966" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7b5fda33-15be-4123-b804-4b8a2f17e33d" Version="1.1" Url="http://recreativ.ru/tizers.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="bn" Value="dKRWG7YD4S" RecordedValue="dKRWG7YD4S" CorrelationBinding="{{QueryStringParam321.bn}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d99e6a53-0bf3-49b7-8998-c7e5cfe2e539" Version="1.1" Url="http://seasonvar.ru/cview.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="19665" RecordedValue="19665" CorrelationBinding="{{QueryStringParam322.id}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gen" Value="|8||3|" RecordedValue="|8||3|" CorrelationBinding="{{QueryStringParam323.gen}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="god" Value="2018" RecordedValue="2018" CorrelationBinding="{{QueryStringParam324.god}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="483ec342-d38d-4213-987a-7e943ab47850" Version="1.1" Url="https://mc.yandex.ru/watch/18520561" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="wmode" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page-ref" Value="http%3A%2F%2Fseasonvar.ru%2F" RecordedValue="http%3A%2F%2Fseasonvar.ru%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page-url" Value="http%3A%2F%2Fseasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" RecordedValue="http%3A%2F%2Fseasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="charset" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="browser-info" Value="ti%3A10%3Aj%3A1%3Ans%3A1554146762611%3As%3A1920x1080x24%3Ask%3A1%3Aadb%3A2%3Af%3A32.0.0.156%3Afpr%3A170485669601%3Acn%3A1%3Aw%3A1641x935%3Az%3A180%3Ai%3A20190401222603%3Aet%3A1554146763%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Anp%3AV2luMzI%3D%3Apv%3A1%3Als%3A403611478797%3Arqn%3A7%3Arn%3A992506539%3Ahid%3A797461897%3Ads%3A0%2C0%2C2%2C290%2C1%2C0%2C0%2C%2C%2C%2C%2C%2C%3Agdpr%3A14%3Av%3A1505%3Arqnl%3A1%3Ast%3A1554146763%3Au%3A1554146645333506266%3At%3A%D0%A1%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%20%D0%97%D0%B0%D1%87%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20(2018)%20Charmed%20%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE!" RecordedValue="ti%3A10%3Aj%3A1%3Ans%3A1554146762611%3As%3A1920x1080x24%3Ask%3A1%3Aadb%3A2%3Af%3A32.0.0.156%3Afpr%3A170485669601%3Acn%3A1%3Aw%3A1641x935%3Az%3A180%3Ai%3A20190401222603%3Aet%3A1554146763%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Anp%3AV2luMzI%3D%3Apv%3A1%3Als%3A403611478797%3Arqn%3A7%3Arn%3A992506539%3Ahid%3A797461897%3Ads%3A0%2C0%2C2%2C290%2C1%2C0%2C0%2C%2C%2C%2C%2C%2C%3Agdpr%3A14%3Av%3A1505%3Arqnl%3A1%3Ast%3A1554146763%3Au%3A1554146645333506266%3At%3A%D0%A1%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%20%D0%97%D0%B0%D1%87%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20(2018)%20Charmed%20%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE!" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <FormPostHttpBody />
+        </Request>
+        <Request Method="POST" Guid="bfbc127c-41e4-4fcd-9abd-cba50ab511be" Version="1.1" Url="http://seasonvar.ru/player.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam414.time" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?time=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <FormPostHttpBody>
+            <FormPostParameter Name="id" Value="19665" RecordedValue="19665" CorrelationBinding="{{FormPostParam1.id}}" UrlEncode="True" />
+            <FormPostParameter Name="serial" Value="12416" RecordedValue="12416" CorrelationBinding="{{FormPostParam2.serial}}" UrlEncode="True" />
+            <FormPostParameter Name="type" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="secure" Value="db309df9404fefc6663bcf82251f8cf5" RecordedValue="db309df9404fefc6663bcf82251f8cf5" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="time" Value="1554146761" RecordedValue="1554146761" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="56cd0de2-1fd0-4b4f-8d12-58a699c1c74b" Version="1.1" Url="http://recreativ.ru/tizers.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="bn" Value="dKRWG7YD4S" RecordedValue="dKRWG7YD4S" CorrelationBinding="{{QueryStringParam355.bn}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ab" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="abl" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="8a7694f3-2a29-42b9-9b4f-bc8c09a36f1b" Version="1.1" Url="https://mc.yandex.ru/watch/26812653" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="wmode" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page-ref" Value="http%3A%2F%2Fseasonvar.ru%2F" RecordedValue="http%3A%2F%2Fseasonvar.ru%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="page-url" Value="http%3A%2F%2Fseasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" RecordedValue="http%3A%2F%2Fseasonvar.ru%2Fserial-19665-Zacharovannye_2018-0000-sezon.html" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="charset" Value="utf-8" RecordedValue="utf-8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="site-info" Value="%7B%22jquery%22%3Atrue%2C%22version%22%3A%223.2.1%22%7D" RecordedValue="%7B%22jquery%22%3Atrue%2C%22version%22%3A%223.2.1%22%7D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="browser-info" Value="ti%3A10%3Aj%3A1%3Ans%3A1554146762611%3As%3A1920x1080x24%3Ask%3A1%3Aadb%3A2%3Af%3A32.0.0.156%3Afpr%3A170485669601%3Acn%3A2%3Aw%3A1641x935%3Az%3A180%3Ai%3A20190401222603%3Aet%3A1554146764%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Apv%3A1%3Als%3A191718098416%3Arqn%3A2%3Arn%3A604787896%3Ahid%3A797461897%3Ads%3A0%2C0%2C2%2C290%2C1%2C0%2C0%2C554%2C204%2C%2C%2C%2C692%3Agdpr%3A14%3Av%3A1505%3Arqnl%3A1%3Ast%3A1554146765%3Au%3A1554146645333506266%3At%3A%D0%A1%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%20%D0%97%D0%B0%D1%87%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20(2018)%20Charmed%20%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE!" RecordedValue="ti%3A10%3Aj%3A1%3Ans%3A1554146762611%3As%3A1920x1080x24%3Ask%3A1%3Aadb%3A2%3Af%3A32.0.0.156%3Afpr%3A170485669601%3Acn%3A2%3Aw%3A1641x935%3Az%3A180%3Ai%3A20190401222603%3Aet%3A1554146764%3Aen%3Autf-8%3Ac%3A1%3Ala%3Aen-us%3Apv%3A1%3Als%3A191718098416%3Arqn%3A2%3Arn%3A604787896%3Ahid%3A797461897%3Ads%3A0%2C0%2C2%2C290%2C1%2C0%2C0%2C554%2C204%2C%2C%2C%2C692%3Agdpr%3A14%3Av%3A1505%3Arqnl%3A1%3Ast%3A1554146765%3Au%3A1554146645333506266%3At%3A%D0%A1%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%20%D0%97%D0%B0%D1%87%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5%20(2018)%20Charmed%20%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D1%82%D1%8C%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE!" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+          <FormPostHttpBody />
+        </Request>
+        <Request Method="GET" Guid="9b948657-b1ff-4b60-ba77-a3fefb02b43b" Version="1.1" Url="http://seasonvar.ru/playls2/db309df9404fefc6663bcf82251f8cf5/trans/19665/plist.txt" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="time" Value="1554146761" RecordedValue="1554146761" CorrelationBinding="{{QueryStringParam414.time}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam321.bn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?bn=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam322.id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam323.gen" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;gen=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam324.god" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;god=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.id" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="son=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.serial" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ial=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;  " />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam355.bn" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?bn=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="798740a1-91e0-4210-913c-c9eeb1dd5b80" Version="1.1" Url="http://seasonvar.ru/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/serial-19665-Zacharovannye_2018-0000-sezon.html" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f34e8432-512c-424e-b653-7cbb95db2304" Version="1.1" Url="http://seasonvar.ru/tpl/asset/font/svico.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="54723984" RecordedValue="54723984" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7cfc08f1-3543-498c-aefe-d179805790cc" Version="1.1" Url="http://seasonvar.ru/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="4ea7c6cd-f94e-47a5-acac-baaab7fa7a84" Version="1.1" Url="http://seasonvar.ru/tpl/asset/font/svico.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="54723984" RecordedValue="54723984" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="223cde75-e886-4325-9edc-4f3d80154748" Version="1.1" Url="http://seasonvar.ru/autocomplete.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="%d1%81%d0%b5%d1%80%d0%b8" RecordedValue="%d1%81%d0%b5%d1%80%d0%b8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f9ef00b1-e036-4999-8ff2-c6a3e87d21f4" Version="1.1" Url="http://seasonvar.ru/autocomplete.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="%d1%81%d0%b5%d1%80%d0%b8%d0%b0" RecordedValue="%d1%81%d0%b5%d1%80%d0%b8%d0%b0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="75de1685-7050-4c5f-b46a-77c76c668acf" Version="1.1" Url="http://seasonvar.ru/autocomplete.php" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/javascript, */*; q=0.01" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="%d1%81%d0%b5%d1%80%d0%b8%d0%b0%d0%bb" RecordedValue="%d1%81%d0%b5%d1%80%d0%b8%d0%b0%d0%bb" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f7ad1c8d-0506-4ca8-8971-4aafea5be559" Version="1.1" Url="http://seasonvar.ru/search" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="q" Value="%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB" RecordedValue="%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e2fb8895-a082-43d6-bd3a-31d6e1c80628" Version="1.1" Url="http://seasonvar.ru/tpl/asset/font/svico.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/search?q=%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="54723984" RecordedValue="54723984" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="23721d06-4573-4210-a197-ece1faf3240c" Version="1.1" Url="http://seasonvar.ru/tpl/asset/font/svico.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/serial-10648-Maski_-_mul_tserial_dlya_vzroslyh.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="54723984" RecordedValue="54723984" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="58bf9449-18f7-459c-be41-bfca987ee00b" Version="1.1" Url="http://seasonvar.ru/cview.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/serial-10648-Maski_-_mul_tserial_dlya_vzroslyh.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="10648" RecordedValue="10648" CorrelationBinding="{{QueryStringParam1328.id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gen" Value="|1||17||10|" RecordedValue="|1||17||10|" CorrelationBinding="{{QueryStringParam1329.gen}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="god" Value="1997" RecordedValue="1997" CorrelationBinding="{{QueryStringParam1330.god}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="f165b915-3e27-4ed0-a5f0-b6017cd1f0a6" Version="1.1" Url="http://seasonvar.ru/player.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="http://seasonvar.ru/serial-10648-Maski_-_mul_tserial_dlya_vzroslyh.html" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1472.time" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?time=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="id" Value="10648" RecordedValue="10648" CorrelationBinding="{{FormPostParam3.id}}" UrlEncode="True" />
+        <FormPostParameter Name="serial" Value="6241" RecordedValue="6241" CorrelationBinding="{{FormPostParam4.serial}}" UrlEncode="True" />
+        <FormPostParameter Name="type" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="secure" Value="db309df9404fefc6663bcf82251f8cf5" RecordedValue="db309df9404fefc6663bcf82251f8cf5" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="time" Value="1554311826" RecordedValue="1554311826" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="5ded0855-126a-42c0-b53c-cc3aad23233a" Version="1.1" Url="http://seasonvar.ru/playls2/db309df9404fefc6663bcf82251f8cf5/trans/10648/plist.txt" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://seasonvar.ru/serial-10648-Maski_-_mul_tserial_dlya_vzroslyh.html" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="time" Value="1554311826" RecordedValue="1554311826" CorrelationBinding="{{QueryStringParam1472.time}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
